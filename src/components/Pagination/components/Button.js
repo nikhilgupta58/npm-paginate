@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Button({page,pageNum}) {
+export default function Button({onClick,page,pageNum}) {
   return (
     <button
       style={{
@@ -14,6 +14,7 @@ export default function Button({page,pageNum}) {
         fontSize: page == pageNum ? "14px" : "inherit",
         cursor: "pointer",
       }}
+      onClick={onClick}
     >
       {pageNum}
     </button>
