@@ -41,21 +41,21 @@
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...PUT YOUR VAILIDATION LIKE IF CURRENT PAGE IS THE LAST PAGE THEN THIS BUTTON SHOULD DISABLED
 
 const Next = ({ onClick }) => {
-  return < button onClick={onClick} > next </button >
+  return < button onClick={onClick} > next </ button >
 };
  
 # How to make Custom PrevButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...
 
 const Prev = ({ onClick }) => {
-  return < button onClick={onClick} > Prev </button>
+  return < button onClick={onClick} > Prev </ button>
 };
  
  # How to make Custom NumberButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...
 
 const Number = ({ onClick, pageNum }) => {
-  return < button onClick={onClick} > {pagrNum} </button>
+  return < button onClick={onClick} > {pagrNum} </ button>
 };
 
  
