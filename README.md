@@ -55,7 +55,7 @@ const Prev = ({ onClick }) => {
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...
 
 const Number = ({ onClick, pageNum }) => {
-  return $\lt$ button onClick={onClick} $\gt$ {pagrNum} $\lt$/button $\gt$
+  return < button onClick={onClick} > {pagrNum} </button>
 };
 
  
