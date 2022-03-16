@@ -2,6 +2,9 @@
 
 ### A simple react component for pagination that gives buttons customization to you.
 
+![Pagination look](https://res.cloudinary.com/dhiu02sfh/image/upload/v1647453550/1_kbopvc.png)
+
+
 ## Props
 ### page: number (current page)
 ### setPage: (page:number) => void (To set the current page)
@@ -37,24 +40,22 @@
 # How to make Custom NextButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...PUT YOUR VAILIDATION LIKE IF CURRENT PAGE IS THE LAST PAGE THEN THIS BUTTON SHOULD DISABLED
 
-## const Next = ({ onClick }) => {
+const Next = ({ onClick }) => {
   return $\lt$ button onClick={onClick} $\gt$ next $\lt$/button $\gt$
-
 };
  
 # How to make Custom PrevButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...
 
-## const Prev = ({ onClick }) => {
+const Prev = ({ onClick }) => {
   return $\lt$ button onClick={onClick} $\gt$ Prev $\lt$/button $\gt$
-
 };
  
  # How to make Custom NumberButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...
 
-## const Number = ({ onClick, pageNum }) => {
+const Number = ({ onClick, pageNum }) => {
   return $\lt$ button onClick={onClick} $\gt$ {pagrNum} $\lt$/button $\gt$
-
 };
+
  
