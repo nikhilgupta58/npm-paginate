@@ -1,7 +1,4 @@
 import * as React from "react";
-import Button from "./components/Button";
-import NextBtn from "./components/NextBtn";
-import PrevBtn from "./components/PrevBtn";
 import { usePaginationContext } from "./utils/context";
 export default function PaginationView() {
   const {
