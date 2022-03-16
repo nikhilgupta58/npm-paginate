@@ -34,21 +34,21 @@
     NumberButton: CustomNumberButton
 }
 
-##  $\lt$ Pagination page={page} setPage={setPage} totalPages={totalPages} setting={setting} /$\gt$
+##  < Pagination page={page} setPage={setPage} totalPages={totalPages} setting={setting} />
 
 
 # How to make Custom NextButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...PUT YOUR VAILIDATION LIKE IF CURRENT PAGE IS THE LAST PAGE THEN THIS BUTTON SHOULD DISABLED
 
 const Next = ({ onClick }) => {
-  return $\lt$ button onClick={onClick} $\gt$ next $\lt$/button $\gt$
+  return < button onClick={onClick} > next </button >
 };
  
 # How to make Custom PrevButton 
 ### It takes onClick function as a prop, you do not need to implement it, just include it as prop and assign it as shown in example below, and all the customization and styling is yours...
 
 const Prev = ({ onClick }) => {
-  return $\lt$ button onClick={onClick} $\gt$ Prev $\lt$/button $\gt$
+  return < button onClick={onClick} > Prev </button>
 };
  
  # How to make Custom NumberButton 
