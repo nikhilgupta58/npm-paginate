@@ -1,6 +1,6 @@
 {
   "name": "@nikhilgupta59/react-paginate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple react component for pagination that accepts current page, a function to setPage and the totalPages.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
