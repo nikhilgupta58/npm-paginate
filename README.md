@@ -24,7 +24,7 @@
 
 # How to use pagination component in your react app
 
-## import {Pagination} from '@nikhilgupta59/react-paginate
+## import {Pagination} from 'pagination-headless'
 
 ### const [page,setPage] = React.useState(1)
 ### const totalPages = 20
