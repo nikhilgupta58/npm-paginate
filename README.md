@@ -30,7 +30,7 @@ setting : {
 ### How to use pagination component in your react app
 
 ```
-import {Pagination} from 'pagination-headless'
+import {Pagination} from 'react-pagination-headless'
 const [page,setPage] = React.useState(1)
 const totalPages = 20
 const setting = {
